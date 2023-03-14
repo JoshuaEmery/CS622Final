@@ -1,5 +1,5 @@
 numpy
 plotly
-PIL
+pillow
 scipy
 json
