@@ -1,0 +1,5 @@
+numpy
+plotly
+PIL
+scipy
+json
