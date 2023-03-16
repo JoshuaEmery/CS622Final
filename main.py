@@ -1,5 +1,4 @@
 import streamlit as st
-import json
 import pandas as pd
 import plotly
 import numpy as np
@@ -7,7 +6,6 @@ import plotly.graph_objects as go
 from PIL import Image
 import scipy as sp
 import streamlit as st
-import csv
 import networkx as nx
 
 def main():
@@ -282,8 +280,8 @@ def visualization():
             #Plot the final figure
             fig = go.Figure(data=[edge_trace, node_trace],
                         layout=go.Layout(
-                            title='Hover over node to see city information',
-                            title_x=0.08,
+                            title='Hover over node for info',
+                            title_x=0.05,
                             titlefont=dict(size=25),
                             showlegend=False,
                             hovermode='closest',
