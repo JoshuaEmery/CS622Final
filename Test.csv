@@ -1,0 +1,62 @@
+StartCity,EndCity,Distance(mi)
+Seattle,White Center,8.8
+Seattle,Tukwila,10.7
+Seattle,Mercer Island,8.2
+Seattle,Shoreline,11.5
+Seattle,Kenmore,12.5
+Seattle,Lake Forest Park,12.4
+White Center,Seattle,8.8
+White Center,Burien,3.2
+Tukwila,Seattle,10.7
+Tukwila,Burien,4.3
+Tukwila,Renton,4.4
+Tukwila,Seatac,3.3
+Mercer Island,Seattle,8.2
+Mercer Island,Bellevue,6.3
+Shoreline,Seattle,11.5
+Shoreline,Kenmore,5.3
+Shoreline,Mountlake Terrace,5.6
+Shoreline,Bothell,8
+Kenmore,Seattle,12.5
+Kenmore,Shoreline,5.3
+Kenmore,Lake Forest Park,1.6
+Kenmore,Bothell,2.9
+Lake Forest Park,Seattle,12.4
+Lake Forest Park,Kenmore,1.6
+Lake Forest Park,Mountlake Terrace,4
+Lake Forest Park,Bothell,4.3
+Burien,White Center,3.2
+Burien,Tukwila,4.3
+Burien,Seatac,4.4
+Burien,Normandy Park,2.6
+Renton,Tukwila,4.4
+Renton,Kent,9.5
+Renton,Bellevue,10.9
+Renton,Seatac,7.8
+Des Moines,Kent,4.5
+Des Moines,Normandy Park,3
+Kent,Renton,9.5
+Kent,Des Moines,4.5
+Kent,Normandy Park,7.8
+Mountlake Terrace,Shoreline,5.6
+Mountlake Terrace,Lake Forest Park,4
+Bothell,Shoreline,8
+Bothell,Kenmore,2.9
+Bothell,Lake Forest Park,4.3
+Bothell,Kirkland,6.4
+Kirkland,Bothell,6.4
+Kirkland,Redmond,4.1
+Kirkland,Bellevue,4.8
+Redmond,Kirkland,4.1
+Redmond,Bellevue,8
+Bellevue,Mercer Island,6.3
+Bellevue,Renton,10.9
+Bellevue,Kirkland,4.8
+Bellevue,Redmond,8
+Seatac,Tukwila,3.3
+Seatac,Burien,4.4
+Seatac,Renton,7.8
+Seatac,Normandy Park,4.3
+Normandy Park,Burien,2.6
+Normandy Park,Des Moines,3
+Normandy Park,Seatac,4.3
