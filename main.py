@@ -291,7 +291,32 @@ def visualization():
 
 def display_conclusion():
     st.title('Conclusion')
-    st.write('Insert conclusion text here')
+    st.subheader("Dijkstra's algorithm:")
+    st.write("""
+    Best-case time complexity: O(E + logV)
+Average-case time complexity: O(E + V logV)
+Worst-case time complexity: O(E + V logV)
+Space complexity: O(V + E)
+
+Here, E is the number of edges and V is the number of vertices in the graph. 
+
+The time complexity of Dijkstra's algorithm depends on the implementation of the priority queue. Using a binary heap priority queue gives a better performance than a simple linear search, but using a Fibonacci heap priority queue gives the best performance.
+
+    """)
+    st.subheader("Floyd-Warshall algorithm:")
+    st.write("""
+    Best-case time complexity: O(V^3)
+Average-case time complexity: O(V^3)
+Worst-case time complexity: O(V^3)
+Space complexity: O(V^2)
+
+Here, V is the number of vertices in the graph. The algorithm calculates the shortest path between all pairs of vertices by considering all possible intermediate vertices.
+
+The time complexity of Floyd-Warshall algorithm is cubic in the number of vertices. Therefore, it is not suitable for large graphs as the computation time can be prohibitive.
+
+In summary, based on our project and generated reports we can say as Dijkstra's algorithm is faster than Floyd-Warshall Algorithm. If the graph is sparse and there is only one source vertex, Dijkstra's algorithm is a better choice due to its faster time complexity. However, if the graph is dense and we need to find the shortest path between all pairs of vertices, the Floyd-Warshall algorithm is the way to go. 
+
+    """)
 
 if __name__ == '__main__':
     main()
