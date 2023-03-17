@@ -43,8 +43,6 @@ def main():
         sample_data()
     elif page == 'Visualize Data Set':
         visualization()
-    elif page == 'Results':
-        display_results()
     else:
         display_conclusion()
 
@@ -217,7 +215,7 @@ This loop backtracks from the end_city to the start_city, adding each node to th
 
 def visualization():
     st.title('Graph of King County Cities')
-    with open('test.csv', 'r') as file:
+    with open('Test.csv', 'r') as file:
     #Create the network graph using networkx
         if file is not None:     
             df=pd.read_csv(file)
